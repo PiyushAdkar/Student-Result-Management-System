@@ -1,4 +1,4 @@
-// You can view the student.txt file for the example student data. In the student.txt file, first field is student Id (which the code may ask) 
+// You can view or download the student.txt file for the example student data. In the student.txt file, first field is student Id (which the code may ask) 
 // and the last field is password which you have to enter if asked.
 #include <iostream>
 #include<fstream>
