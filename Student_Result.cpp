@@ -460,6 +460,8 @@ class student_system : public virtual Student , public Marks , public Result
     public:
     void menu()
     {
+        char f;
+    do{
         cout<<"\nStudent result management system:\n1.Add new student\n2.Delete records of an existing student\n3.Display records of a student\n4.Update details of a student\n5.Display all students\n6.Display class topper\n7.Exit"<<endl;
         cout<<"Enter choice: ";
         cin>>choice;
@@ -680,6 +682,7 @@ class student_system : public virtual Student , public Marks , public Result
             case 7:
             {
             cout<<"Exiting the system."<<endl;
+            return;
             break;
             }
             default:
@@ -687,6 +690,10 @@ class student_system : public virtual Student , public Marks , public Result
             cout<<"Enter valid choice (Between 1-4): "<<endl;
             }    
         }
+        cout<<"Do you want to perform another operation?(Enter y/Y for yes)"<<endl;
+        cin>>f;
+    }while(f=='y' || f=='Y');
+    cout<<"Exiting the system."<<endl;
     }
 };
 
