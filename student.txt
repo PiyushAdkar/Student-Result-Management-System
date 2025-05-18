@@ -1,4 +1,4 @@
 F24CE211|Ashish Shinde|30|30|30|29|29|148|98.67|A+|aaa
 F24CE148|Hrudaymardam Joshi|28|29|27|29|28|141|94.00|A+|aaa
-F24CE133|Piyush Adkar|27|28|25|28|28|136|90.67|A+|aaa
+F24CE133|Piyush Adkar|30|30|30|30|30|150|100.00|A+|aaa
 F24CE143|Anish Adkar|28|28|28|28|28|140|93.33|A+|aaa
